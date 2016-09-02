@@ -1,0 +1,80 @@
+#ser > a:first-child{
+	height: 46px;
+	float: left;
+	margin-left: 120px;
+}
+.ser-box{
+	display: block;
+	width: 500px;
+	border: 1px solid black;
+	margin: 30px auto 15px;
+}
+.ser-box select{
+	width: 55px;
+	height: 46px;
+	color: #999;
+	border:0;
+}
+.ser-box input{
+	width: 345px;
+	height: 46px;
+	padding: 0;
+	border:0;
+}
+.ser-box button{
+	float: right;
+	width: 100px;
+	height: 46px;
+	border-bottom: 0;
+	border-left: 1px solid black;
+	border-top: 0;
+	border-right: 0;
+	background-color: #f4f4f4;
+}
+.ser-box button a{
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+.ser-lik{
+	margin-left: 300px;
+	float: left;
+	width: 1000px;
+	display: block;
+}
+.ser-lik a{
+	text-decoration: none;
+	float: left;
+	color: #555;
+	font-size: 13px;
+	line-height: 17px;
+	margin: 0 10px 0 0;
+}
+.ser-box + a{
+	font-size: 13px;
+	float: right;
+	line-height: 17px;
+	display: inline-block;
+	margin: 0;
+	text-decoration: none;
+	color: black;
+	position: relative;
+	top: -45px;
+	right: 90px;
+}
+.ser-box + a img{
+	display: inline-block;
+	float: left;
+}
+.ser-box button:hover{
+	background-color: #f0f0f0;
+}
+.ser-lik a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.ser-box + a:hover{
+	text-decoration: underline;
+	color: red;
+}

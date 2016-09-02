@@ -1,0 +1,105 @@
+.top-lik{
+	float: right;
+}
+.top-img{
+	float: left;
+	display: inline-block;
+}
+.second{
+	float: left;
+	display: inline-block;
+}
+.second img{
+	float: left;
+	display: block;
+	margin:17px 0;
+	padding: 0 5px;
+}
+.second select{
+	float: left;
+	display: block;
+	border:0;
+	height: 60px;
+	color: #999;
+	background: transparent;
+}
+.second select + img{
+	float: left;
+	display: block;
+	margin:21px 0;
+}
+.second span{
+	float: left;
+	display: block;
+	color: #999;
+	text-decoration: none;
+	padding: 0 5px 0 0;
+}
+#top ul{
+	margin:0;
+}
+.top-sel{
+	display: inline-block;
+}
+.top-sel > li{
+	float: left;
+}
+li{
+	list-style-type: none;
+}
+.top-sel,.text{
+	padding: 0;
+}
+#top li a{
+	text-decoration: none;
+	display: block;
+	line-height: 60px;
+	text-align: center;
+}
+.top-sel > li > a{
+	color: #999;
+	padding: 0 5px;
+}
+.text li a{
+	color: #999;
+}
+.text{
+	background-color: #f7f7f7;
+	display: none;
+	position: absolute;
+}
+
+.top-lik a{
+	display: inline-block;
+	line-height: 60px;
+	text-decoration: none;
+	color: #999;
+	font-size: 13px;
+	padding: 0 5px;
+}
+.top-lik a img{
+	display: inline-block;
+	float: left;
+	margin: 21px 4px;
+}
+.top-sel > li > a:hover{
+	background-color: #f7f7f7;
+
+}
+#top .second:hover{
+	background-color: #f7f7f7;
+}
+/*.text li a:hover{
+	background-color: #ccc;
+}*/
+.top-sel li:hover .text{
+	display: block;
+	z-index: 10;
+}
+.top-sel li:hover{
+	border-right:  1px solid #ddd;
+	border-left:  1px solid #ddd;
+}
+.top-lik a:hover{
+	background-color: #f7f7f7;
+}
